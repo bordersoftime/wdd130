@@ -1,0 +1,123 @@
+:root {
+    --primary-color: #b04e4b;
+    --secondary-color: #2d97c8;
+    --font1color: #ededed;
+    --font2-color: #000000;
+    --heading-font: "Roboto" sans;
+    --paragraph-font: "Roboto" sans;
+    --background-color: #ededed;
+    --link-color: #094074;
+    --hover-link-color: #2d97c8;
+    --hover-color: #b04e4b;
+    --hover-background-color: #ededed;
+    --font-family: 'Roboto' sans-serif;
+}
+
+body {
+    
+        max-width: 1200px; 
+        margin: 0 auto;    
+        padding: 0 20px;   
+      }
+
+body {
+    background-color: #ededed;
+    color: var(--font2-color);
+    font-family: var(--font-family);
+    
+}
+/* TITLES */
+
+h1 {
+    background-color: #b04e4b;
+    color: var(--font1color); 
+    font-weight: bold;
+    margin-bottom: 10px; 
+    text-align: center;
+}
+
+h2, h3, h4, h5 {
+    color: var(--primary-color)
+    
+}
+/* PARAGRAPHS */
+
+p {
+    color: var(--font2-color);
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+/* LINKS */
+a {
+    color: var(--link-color); 
+    text-decoration: underline; 
+  }
+
+/* LINK WHEN MOUSE PASS BY */
+
+  a:hover {
+    color: var(--hover-color); 
+  }
+  
+  a img {
+    text-decoration: none; 
+    border: none;         
+  }
+
+  .social-link {
+    color: var(--secondary-color); 
+  }
+  
+  .social-link:hover {
+    color: var(--primary-color); 
+  }
+
+  footer {
+    background-color:#b04e4b;
+    color: rgba(255, 255, 255, 0.89);
+    padding: 20px;
+    border-top: 1px solid rgb(255, 255, 255);
+    margin: 1rem auto;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+    gap: 400px;  
+    opacity: .8;
+  }
+
+  
+.hero {
+    position: relative; 
+    width: 100%; 
+  }
+
+  .hero img {
+    width: 100%;       
+    display: block;    
+    height: auto;   
+  }
+
+  .hero article {
+
+        position: absolute;    
+        bottom: 10%;           
+        left: 5%;              
+        background-color: rgba(0, 0, 0, 0.6); 
+        color: white;          
+        padding: 20px;         
+        width: 90%;            
+        z-index: 5;           
+        
+      }
+  
+
+  .hero article p {
+    margin: 0;             
+    line-height: 1.6;      
+  }
+
+  .hero p {
+    font-size: 1.2em;   
+    margin: 10px 0 0;   
+  }
