@@ -116,11 +116,11 @@ a {
     
 
   .hero article p {
-    margin: 0;             /* Remove a margem padrão */
-    line-height: 1.6;      /* Melhor legibilidade */
+    margin: 0;             
+    line-height: 1.6;      
   }
 
   .hero p {
-    font-size: 1.2em;   /* Define o tamanho da fonte para o parágrafo */
-    margin: 10px 0 0;   /* Define a margem para o parágrafo */
+    font-size: 1.2em;   
+    margin: 10px 0 0;   
   }
