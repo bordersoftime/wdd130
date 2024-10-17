@@ -1,7 +1,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,100&display=swap');
 :root {
-  /* change the values below to your colors from your palette */
+  
   --primary-color: #b04e4b   ;
   --secondary-color: #2d97c8 ;
   --accent1-color: white;
@@ -10,16 +10,16 @@
   --heading-font: Roboto;
   --paragraph-font: Roboto;
 
-  --headline-color-on-white: #b04e4b;  /* headlines on a white background */ 
-  --headline-color-on-color: #000000; /* headlines on a colored background */ 
-  --paragraph-color-on-white: #b04e4b; /* paragraph text on a white background */ 
-  --paragraph-color-on-color: #000000; /* paragraph text on a colored background */ 
+  --headline-color-on-white: #b04e4b;  
+  --headline-color-on-color: #000000; 
+  --paragraph-color-on-white: #b04e4b;  
+  --paragraph-color-on-color: #000000;  
   --paragraph-background-color: #b04e4b  ;
   --nav-link-color: #000000;
   --nav-background-color: #4A4E69 ;
   --nav-hover-link-color: #2d97c8;
   --nav-hover-background-color: #9A8C98 ;
-
+}
   body {
     max-width: 960px;
     margin: 0 auto;
