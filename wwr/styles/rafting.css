@@ -11,13 +11,73 @@
     --hover-color: #b04e4b;
     --hover-background-color: #ededed;
     --font-family: 'Roboto' sans-serif;
+
+  }
+  header {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    padding: 10px;
+    background-color: #b04e4b;
+  }
+  
+
+.logo img {
+	margin: 0 0.25rem 0 1rem;
+	width: 64px;
+	height: auto;
+}
+
+nav {
+	text-align: right;
+}
+
+.navigation {
+	display: flex;
+	list-style: none;
+}
+
+.navigation li {
+	flex: 1 1 100%;
+}
+
+.navigation a {
+	display: block;
+	color: navy;
+	padding: 20px;
+	text-decoration: none;
+}
+
+.navigation a:hover {
+	color: tomato;
+	font-weight: 700;
+	text-decoration: underline;
+}
+
+section.history {
+  padding: 40px;
+  background-color: #000000;
+  text-align: center;
+}
+
+.history h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.history p {
+  font-size: 18px;
+  margin-bottom: 15px;
+  max-width: 800px;
+  margin: 0 auto;
+  line-height: 1.8;
 }
 
 body {
     
-        max-width: 1200px; 
-        margin: 0 auto;    
-        padding: 0 20px;   
+  max-width: 1200px; 
+  margin: 0 auto;    
+  padding: 0 20px;   
       }
 
 body {
@@ -29,6 +89,8 @@ body {
 /* TITLES */
 
 h1 {
+    font-size: 2rem;
+    font-family: 'Roboto', sans-serif;
     background-color: #b04e4b;
     color: var(--font1color); 
     font-weight: bold;
@@ -73,6 +135,9 @@ a {
     color: var(--primary-color); 
   }
 
+
+  /* FOOTER */
+
   footer {
     background-color:#b04e4b;
     color: rgba(255, 255, 255, 0.89);
@@ -86,7 +151,8 @@ a {
     opacity: .8;
   }
 
-  
+  /*HERO*/
+
 .hero {
     position: relative; 
     width: 100%; 
@@ -104,7 +170,7 @@ a {
         bottom: 10%;           
         left: 5%;              
         background-color: rgba(0, 0, 0, 0.6); 
-        color: white;          
+        color: rgb(255, 255, 255);          
         padding: 20px;         
         width: 90%;            
         z-index: 5;           
@@ -121,3 +187,26 @@ a {
     font-size: 1.2em;   
     margin: 10px 0 0;   
   }
+
+  /*FIGURES*/
+  figure {
+    border: thin #c0c0c0 solid;
+    display: flex;
+    flex-flow: column;
+    padding: 5px;
+    max-width: 220px;
+    margin: auto;
+  }
+  img {
+    max-width: 220px;
+    max-height: 150px;
+  }
+  
+  figcaption {
+    background-color: #222;
+    color: #fff;
+    font: italic smaller sans-serif;
+    padding: 3px;
+    text-align: center;
+  }
+  
