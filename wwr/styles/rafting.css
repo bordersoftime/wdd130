@@ -161,10 +161,6 @@ body {
   background-color: rgba(147, 70, 70, 0.5);
 }
 
-
-
-
-
 #contact-form input[type="text"],
 #contact-form input[type="email"],
 #contact-form textarea {
@@ -172,7 +168,7 @@ body {
   padding: 5px;
   border: 1px solid #ccc;
   border-radius: 5px;
-  background-color: #b04e4b;
+  background-color: #ab36368c;
 }
 
 fieldset {
@@ -180,7 +176,7 @@ fieldset {
   margin: 1rem;
   border: 1px solid rgba(0, 0, 0, 0.2);
   padding: 1rem;
-  background-color: #b0585877;
+  background-color: #b0666677;
 }
 
 legend {
@@ -242,7 +238,16 @@ footer {
   z-index: -1;
 }
 
-
+.content-grid img {
+  width: 100%;
+  justify-content:center;
+  align-items: center;
+}
+.content-grid {
+  
+  column-count: 2;     
+  column-gap: 20px;
+}
 .social-icons {
   display: flex;
   align-items: center;
@@ -393,3 +398,4 @@ a {
     text-align: center;
   }
   
+
