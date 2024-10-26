@@ -397,5 +397,108 @@ a {
     padding: 3px;
     text-align: center;
   }
+
+
+ .trips img {
+    
+      max-width: 100%; /* Asegura que las imágenes no excedan el ancho del contenedor */
+      height: auto; /* Permite que la altura se ajuste proporcionalmente al ancho */
+      border-radius: 10%;
+      
+      
+    }
+    
+    .trips img:hover {
+      transform: scale(1.10);
+      border-radius: 10%;
+      
+    }
   
 
+    .trips-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 20px 0;
+      background-color: #0000007d;
+    }
+    
+    .trips-table th, .trips-table td {
+      border: 1px solid #000000;
+      padding: 8px;
+      text-align: center;
+      background-color: transparent;
+      font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    }
+    
+    .trips-table th {
+      background-color: transparent;
+      color: #ffffff;
+    }
+  
+    .trips-table tr {
+      color: #ffffff;
+    }
+    
+    
+    .Contact-Us {
+      color: #ffffff;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      background-color: #0000009d;
+      
+      
+    }
+    
+    .Contact-Us img {
+      flex: 0 0 auto; /* Evita que la imagen crezca y mantenga su tamaño original */
+      max-width: 100%; /* Asegura que las imágenes no excedan el ancho del contenedor */
+      height: auto;
+      border-radius: 10%;
+    }
+    
+    .Contact-Us img:hover {
+      transform: scale(1.10); 
+      border-radius: 10%;
+    }
+    
+    .body {
+      background-color: #a02f2f;
+    }
+    
+  
+    .Contact-Us {
+      background-color: #b04e4b;
+    }
+  
+    body {
+      background-color: #fbfbfb;
+    }
+  
+
+  .img-logo {
+    display: flex;
+    align-items: center;
+  }
+
+  .contact-form {
+    width: 650px;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 0.5rem;
+    background-color: #ffffff;
+}
+
+
+
+
+
+#contact-form input[type="text"],
+#contact-form input[type="email"],
+#contact-form textarea {
+    width: 98%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
