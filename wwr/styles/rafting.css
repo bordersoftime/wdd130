@@ -156,9 +156,9 @@ body {
   width: 650px;
   margin: 0 auto;
   padding: 1rem;
-  border: 1px solid rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(200, 97, 97, 0.1);
   border-radius: 0.5rem;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(147, 70, 70, 0.5);
 }
 
 
@@ -172,7 +172,7 @@ body {
   padding: 5px;
   border: 1px solid #ccc;
   border-radius: 5px;
-  background-color: #0000008c;
+  background-color: #b04e4b;
 }
 
 fieldset {
@@ -180,7 +180,7 @@ fieldset {
   margin: 1rem;
   border: 1px solid rgba(0, 0, 0, 0.2);
   padding: 1rem;
-  background-color: #c5c5c577;
+  background-color: #b0585877;
 }
 
 legend {
