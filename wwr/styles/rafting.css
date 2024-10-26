@@ -11,7 +11,7 @@
     --hover-color: #ededed;
     --hover-background-color: #ededed;
     --font-family: 'Roboto' sans-serif;
-
+ 
   }
   header {
     display: grid;
@@ -81,15 +81,18 @@ body {
       }
 
 body {
-    background-color: #a4a4a48f;
+    background-color:#ededed;
     color: var(--font2-color);
-    font-family: var(--font-family);
-    
+    font-family: var(--font-family); 
 }
+    .back {
 
-body {
-  
-}
+         
+    max-width: 1200px; 
+    margin: 0 auto;    
+    padding: 0 20px;
+    }
+
 
 .company-info {
   padding: 20px;
@@ -315,7 +318,7 @@ a {
   /* FOOTER */
 
   footer {
-    background-color:#aaa6a53c;
+    background-color:#b04e4b;
     color: rgba(255, 255, 255, 0.89);
     padding: 10px;
     border-top: 1px solid rgb(255, 255, 255);
